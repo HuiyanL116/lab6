@@ -10,7 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$('.project a').click(addProjectDetails);
-
+	$.get("http://URL", callBackFn)
 	// $('#colorBtn').click(randomizeColors);
 }
 
